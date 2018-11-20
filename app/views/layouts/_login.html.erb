@@ -1,0 +1,22 @@
+<div id="login_modal" class="offset-lg-3 col-lg-6">
+  <form class="new_user" id="new_user" action="/users/sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="Be2S1sMsiKD/igEbLyojF3dsmujsbgKJyp5B1mG8n2VmxwUPF8Z4RCVHkIPHKY27zejxB7MmWzr6b9GrNuVmfQ==">
+  <div class="field">
+    <label for="user_email">Email</label><br>
+    <input autofocus="autofocus" autocomplete="email" type="email" value="" name="user[email]" id="user_email">
+  </div>
+
+  <div class="field" class="modal">
+    <label for="user_password">Password</label><br>
+    <input autocomplete="current-password" type="password" name="user[password]" id="user_password">
+  </div>
+
+    <div class="field" class="modal">
+      <input name="user[remember_me]" type="hidden" value="0"><input type="checkbox" value="1" name="user[remember_me]" id="user_remember_me">
+      <label for="user_remember_me">Remember me</label>
+    </div>
+
+  <div class="actions" class="modal">
+    <input type="submit" name="commit" value="Log in" data-disable-with="Log in">
+  </div>
+</form>
+</div>
