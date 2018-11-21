@@ -1,24 +1,32 @@
-# README
+# ToDo list project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+By the wonderful team
+@Axel (le normand)
+@MarcelALng ( le BG venu de là où se lève le soleil)
 
-Things you may want to cover:
+With help by
+@iCedric
+@Victor
 
-* Ruby version
+## Descriptions
 
-* System dependencies
+```
+Git clone https://github.com/cedricsoares/ui_sprint_design_s7j2
+bundle install
+rails db:create
+rails db:migrate
+rails s
+open your navigator then type http://localhost:3000
 
-* Configuration
+or
 
-* Database creation
+https://todolistmanigga.herokuapp.com/
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+### Prerequisites
+```
+Need Ruby 2.5.1 at least
+Need Rails 5.2 at least
+Need a computer
+Need an internet connection
+```
