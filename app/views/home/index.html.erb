@@ -24,7 +24,25 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container2">
+<div class="controls">
+  <button class="prev"><</button>
+  <button class="next">></button>
+</div>
+<div id="carrousel">
+  <% @tasks.each do |task|  %>
+  <ul>
+    <li><% unless task.image.nil? %>
+    <%= image_tag task.image %>
+      <% end %>
+    </li>
+
+  </ul>
+  <% end %>
+</div>
+</div>
+
+<!-- <div class="container">
   <div class="row">
     <% @tasks.each do |task|  %>
     <div class="card col-3">
@@ -34,4 +52,4 @@
     </div>
     <% end %>
   </div>
-</div>
+</div> -->
